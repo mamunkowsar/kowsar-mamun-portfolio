@@ -1,22 +1,25 @@
 body {
-   
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
-.top-banner{
+
+.top-banner {
     height: 660px;
     background: crimson;
 }
-.top-title{
+
+.top-title {
     padding-top: 70px;
     margin-left: 30px;
     color: white;
-    margin-bottom: 25px ;
+    margin-bottom: 25px;
 }
-.btn{
+
+.btn {
     margin-top: 25px;
 }
-.btn-hire{
+
+.btn-hire {
     background: rgb(255, 255, 255);
     text-decoration: none;
     color: crimson;
@@ -24,10 +27,12 @@ body {
     padding: 10px 20px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+
 h1 {
     font-size: 50px;
 }
-h3{
+
+h3 {
     font-size: 30px;
 }
 
@@ -45,37 +50,180 @@ h3{
     padding-left: 2%;
     padding-right: 2%;
 }
-.about-me{
 
-}
-.about-des{
+.about-me {}
+
+.about-des {
     list-style: none;
     margin-left: -40px;
     font-size: 20px;
+   
 }
-.des-head{
-font-weight: 600;
-margin-right:0;
-display: flex;
-width: 50%;
+.about-des li{
+    display: flex;
 }
-.des-info{
-display: flex;
-width: 50%;
+
+.des-head {
+    font-weight: 600;
+    margin-right: 0;
+ flex-basis: 20%;
+    
 }
+
+.des-info {
+    flex-basis:80%;
+    
+}
+
+.services {
+    background-color: rgb(226, 237, 255);
+    height: 600px;
+}
+
 .services h1 {
     text-align: center;
 }
+
 .services p {
     text-align: center;
 }
-.service-des{
+
+.service-des {
     margin-top: 50px;
+    text-align: center;
 }
-.serv-item{
+
+.serv-item {
     width: 100%;
     padding-left: 2%;
     margin-left: 5%;
     margin-right: 5%;
+    background-color: white;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-radius: 10px;
+    text-align: center;
+}
+
+.projects {
+    margin-bottom: 100px;
+}
+
+.projects h1 {
+    text-align: center;
+}
+
+.projects p {
+    text-align: center;
+}
+
+.proj-item {
+    width: 100%;
+    padding-left: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.project-des {
+    margin-top: 50px;
+    text-align: center;
+    place-items: center;
+}
+
+.contact-item {
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.contact-des {
+    margin-top: 50px;
+    align-self: center;
+}
+
+.wrapper {
+    height: 75px;
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    padding-top: 9px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+::placeholder {
+    font-size: 25px;
+    font-family: poppins;
+}
+
+.wrapper input {
+    height: 64px;
+    width: 337px;
+    margin-left: 9px;
+    border-radius: 5px;
+    border: none;
+    padding-left: 8px;
+    background: rgb(226, 226, 226);
+   
+}
+
+.wrapper button {
+    height: 65px;
+    width: 214px;
+    background: crimson;
+    border-radius: 5px;
+    border: none;
+    font-family: poppins;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    /*! box-shadow: 0px; */
+    margin-left: 5px;
+    
+}
+.email-flex{
+    flex-basis: 60%;
+}
+.btn-flex{
+    flex-basis: 40%;
+}
+.card-part{
+    display: flex;
+    flex-basis: 100%;
+    
+}
+.card{
+    width: 350px;
+    height: 400px;
+    
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 0 auto;
+   
+    
+    
+}
+.ui{
+    
+}
+.card img{
+    width: 50%;
+    margin-left: 20%;
+}.card p{
+    text-align: left;
+    padding-bottom: 20px;
+    padding-right: 15px;
+}
+.card p, .card h2{
+    margin-left: 20px;
+}
