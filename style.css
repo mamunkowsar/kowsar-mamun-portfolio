@@ -1,0 +1,46 @@
+body {
+   
+    margin: 0;
+}
+.top-banner{
+    height: 660px;
+    background: crimson;
+}
+.top-title{
+    padding-top: 70px;
+    margin-left: 30px;
+    color: white;
+    margin-bottom: 25px ;
+}
+.btn{
+    margin-top: 25px;
+}
+.btn-hire{
+    background: deeppink;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+h1 {
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+
+.orange-text {
+    color: orange;
+}
+
+.flex-container {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.half-width {
+    width: 100%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
