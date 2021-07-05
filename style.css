@@ -1,6 +1,7 @@
 body {
    
     margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
 .top-banner{
     height: 660px;
@@ -16,9 +17,9 @@ body {
     margin-top: 25px;
 }
 .btn-hire{
-    background: deeppink;
+    background: rgb(255, 255, 255);
     text-decoration: none;
-    color: white;
+    color: crimson;
     border-radius: 5px;
     padding: 10px 20px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -26,8 +27,8 @@ body {
 h1 {
     font-size: 50px;
 }
-h2{
-    font-size: 40px;
+h3{
+    font-size: 30px;
 }
 
 .orange-text {
@@ -40,7 +41,41 @@ h2{
 }
 
 .half-width {
-    width: 100%;
+    width: 50%;
     padding-left: 2%;
     padding-right: 2%;
 }
+.about-me{
+
+}
+.about-des{
+    list-style: none;
+    margin-left: -40px;
+    font-size: 20px;
+}
+.des-head{
+font-weight: 600;
+margin-right:0;
+display: flex;
+width: 50%;
+}
+.des-info{
+display: flex;
+width: 50%;
+}
+.services h1 {
+    text-align: center;
+}
+.services p {
+    text-align: center;
+}
+.service-des{
+    margin-top: 50px;
+}
+.serv-item{
+    width: 100%;
+    padding-left: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
